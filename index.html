@@ -1,23 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+<!-- saved from url=(0084)http://localhost:63342/jzxznb.github.io/res/tes.html?_ijt=ldh7c1gmnlphrjt2oipupeqard -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
     <title>Title</title>
-    <script src="http://lib.sinaapp.com/js/jquery/2.0.2/jquery-2.0.2.min.js"></script>
-    <script>
-        $(function () {
-            for (var i=0;i<2000;i++){
-                var k="<h1 style='display: inline-block'>sbsbsbsbssbsbsb</h1>"
-                $("#shabi").append(k);
-            }
-            while (1==1){
-                alert("你他妈的傻逼吧哈哈哈哈哈哈哈哈")
-            }
-
-        });
-    </script>
+    <style media="screen">
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        body {
+            background-color: rgb(244, 244, 244);
+        }
+        .container {
+            width: 1000px;
+            margin: auto;
+            margin-top: 3em;
+            clear: left;
+        }
+        .wrap {
+            -webkit-perspective:400;
+            -moz-perspective:400;
+            float: left;
+            width: 220px;
+            margin-right: 20px;
+        }
+        .image {
+            width: 100%;
+            height: 200px;
+            -webkit-transform-style:preserve-3d;
+            -webkit-transition:1.5s;
+            -moz-transform-style:preserve-3d;
+            -moz-transition:1.5s;
+        }
+        img {
+            width: 220px;
+            height: 200px;
+        }
+        .wrap:hover .image {
+            -webkit-transform:rotateY(180deg);
+            -moz-transform:rotateY(180deg);
+        }
+        .display {
+            position: absolute;
+            -webkit-backface-visibility:hidden;
+            -moz-backface-visibility:hidden;
+        }
+        .display h3 {
+            color: white;
+            text-align: center;
+        }
+        .back {
+            -webkit-transform:rotateY(180deg);
+            -moz-transform:rotateY(180deg);
+            background: -webkit-gradient(linear,left top,left bottom,from(#fdbb5a), to(#db5726));
+            background: -moz-linear-gradient(top,#fdbb5a,#db5726);
+            width: 220px;
+            height: 200px;
+            line-height: 200px;
+        }
+    </style>
 </head>
-<body id="shabi">
-</body>
-</body>
-</html>
+<body>
+<div class="container">
+    <div class="wrap">
+        <div class="image">
+            <div class="display front">
+                <img src="./Title_files/640" alt="">
+            </div>
+            <div class="display back">
+                <h3>灰白的爱车</h3>
+            </div>
+        </div>
+    </div>
+    <div class="wrap">
+        <div class="image">
+            <div class="display front">
+                <img src="./Title_files/640(1)" alt="">
+            </div>
+            <div class="display back">
+                <h3>吉他boy</h3>
+            </div>
+        </div>
+    </div>
+    <div class="wrap">
+        <div class="image">
+            <div class="display front">
+                <img src="./Title_files/640(2)" alt="">
+            </div>
+            <div class="display back">
+                <h3>俊俏的horse</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body></html>
